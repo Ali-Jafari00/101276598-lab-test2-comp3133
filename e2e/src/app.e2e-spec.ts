@@ -1,16 +1,16 @@
 import { browser, logging } from 'protractor';
 import { AppPage } from './app.po';
 
-describe('workspace-project App', () => {
+describe('Lab test app', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display welcome message', async () => {
+  it('Welcome Message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('lab-test2-comp3133-id101202754 app is running!');
+    expect(await page.getTitleText()).toEqual('App is running!');
   });
 
   afterEach(async () => {
