@@ -2,12 +2,20 @@ section {
   display: table;
 }
 
-.example-label {
-  display: table-cell;
-  font-size: 14px;
-  margin-left: 8px;
-  min-width: 120px;
+
+.cardMain{
+  margin: 0 auto;
+  width: 600px;
+  border: 1px black solid;
+  box-shadow: 10px 10px 5px grey;
 }
+
+
+div.mat-card-header-text{
+  min-width: 50%;
+}
+
+
 
 .example-button-row {
   display: table-cell;
@@ -30,22 +38,22 @@ section {
   width: 120px;
 }
 
-.example-card {
+.cardExample {
   max-width: 100%;
 }
 
-.example-header-image {
+.headerExampleImagef {
   background-size: cover;
   width:200px;
   float: right;
 }
-
-.main-card{
-  margin: 0 auto;
-  width: 600px;
-  border: 1px black solid;
-  box-shadow: 10px 10px 5px grey;
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
 }
+
 
 .button-wrapper{
   width:fit-content;
@@ -61,13 +69,9 @@ section {
   box-shadow: none;
 }
 
-.page-title{
+.title-page{
   width:fit-content;
   margin: auto
-}
-
-div.mat-card-header-text{
-  min-width: 50%;
 }
 
 

@@ -17,7 +17,7 @@ export class MissiondetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private spacexapiService: SpacexapiService,
-    private location: Location
+    private missionLocation: Location
   ) { }
 
   ngOnInit(): void {
@@ -33,7 +33,7 @@ export class MissiondetailsComponent implements OnInit {
   }
 
   goBack(): void {
-    this.location.back();
+    this.missionLocation.back();
   }
 
 }

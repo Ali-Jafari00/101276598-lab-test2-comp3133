@@ -1,16 +1,17 @@
-import { browser, logging } from 'protractor';
 import { AppPage } from './app.po';
+import { browser, logging } from 'protractor';
+
 
 describe('Lab test app', () => {
-  let page: AppPage;
+  let Apage: AppPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    Apage = new AppPage();
   });
 
   it('Welcome Message', async () => {
-    await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('App is running!');
+    await Apage.navigateTo();
+    expect(await Apage.getTitleText()).toEqual('App is running!');
   });
 
   afterEach(async () => {

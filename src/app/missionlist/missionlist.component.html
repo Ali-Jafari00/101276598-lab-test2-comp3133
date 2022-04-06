@@ -4,7 +4,7 @@
 <ul>
   <li *ngFor="let mission of missions">
     <a routerLink="details/{{ mission.flight_number }}">
-      <mat-card class="example-card" >
+      <mat-card class="cardExample" >
         <mat-card-header>
           <img mat-card-avatar src="{{ mission.mission_patch_small }}" />
           <mat-card-title>{{ mission.mission_name }}</mat-card-title>
